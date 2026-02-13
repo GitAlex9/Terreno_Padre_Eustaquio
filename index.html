@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oportunidade de Investimento - Padre Eustáquio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .bg-blueprint {
+            background-color: #0f172a;
+            background-image: linear-gradient(#1e293b 1px, transparent 1px), linear-gradient(90deg, #1e293b 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+        @media print {
+            .no-print { display: none !important; }
+            body { background-color: white; }
+            .bg-blueprint { background-color: #0f172a !important; -webkit-print-color-adjust: exact; }
+            .shadow-lg, .shadow-md { box-shadow: none !important; border: 1px solid #ddd; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header / Capa -->
+    <header class="bg-blueprint text-white py-12 border-b-4 border-yellow-500">
+        <div class="container mx-auto px-4 max-w-5xl">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div>
+                    <span class="bg-yellow-500 text-blue-900 font-bold px-3 py-1 rounded text-xs uppercase tracking-wider mb-2 inline-block">Oportunidade de Incorporação</span>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-2">Terreno Padre Eustáquio</h1>
+                    <p class="text-gray-400 text-lg">Rua Dona Noemi, Belo Horizonte - MG</p>
+                </div>
+                <div class="mt-6 md:mt-0 text-right flex flex-col gap-3">
+                    <div>
+                        <div class="text-3xl font-bold text-yellow-400">R$ 820.000,00</div>
+                        <div class="text-sm text-gray-400">Custo do Terreno: ~10% do VGV</div>
+                    </div>
+                    <!-- Botão de Salvar PDF -->
+                    <button onclick="window.print()" class="no-print bg-white text-blue-900 px-4 py-2 rounded font-bold text-sm hover:bg-gray-100 transition shadow">
+                        <i class="fas fa-file-pdf mr-2"></i> Salvar como PDF
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 max-w-5xl py-8">
+
+        <!-- Grid de Dados Rápidos -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-blue-600">
+                <div class="text-gray-500 text-xs uppercase font-bold">Área Total</div>
+                <div class="text-2xl font-bold text-gray-800">471 m²</div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-blue-600">
+                <div class="text-gray-500 text-xs uppercase font-bold">Frente (Testada)</div>
+                <div class="text-2xl font-bold text-gray-800">12 m</div>
+                <div class="text-xs text-green-600 font-semibold">Ideal p/ Pilotis</div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-blue-600">
+                <div class="text-gray-500 text-xs uppercase font-bold">Zoneamento</div>
+                <div class="text-2xl font-bold text-gray-800">OM-3</div>
+                <div class="text-xs text-gray-400">CA Max: 2.5</div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-sm border-l-4 border-blue-600">
+                <div class="text-gray-500 text-xs uppercase font-bold">Topografia</div>
+                <div class="text-xl font-bold text-gray-800">Favorável</div>
+                <div class="text-xs text-gray-400">Rua com prédios altos</div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Coluna Esquerda: O Projeto -->
+            <div class="md:col-span-2 space-y-6">
+                
+                <!-- Seção 1: Potencial Construtivo -->
+                <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="bg-gray-100 px-6 py-4 border-b border-gray-200 flex justify-between items-center">
+                        <h2 class="font-bold text-xl text-gray-800"><i class="fas fa-drafting-compass mr-2 text-blue-600"></i> Estudo Preliminar de Massa</h2>
+                    </div>
+                    <div class="p-6">
+                        <p class="text-gray-600 mb-6">Com base na Lei de Uso e Ocupação do Solo (OM-3) e geometria do lote, projeta-se o seguinte aproveitamento:</p>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-center justify-between p-3 bg-blue-50 rounded border border-blue-100">
+                                <div>
+                                    <div class="font-bold text-blue-900">Área Vendável Estimada</div>
+                                    <div class="text-sm text-blue-700">Considerando CA + Bônus</div>
+                                </div>
+                                <div class="text-2xl font-bold text-blue-900">~1.177 m²</div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div class="border border-gray-200 p-4 rounded bg-gray-50">
+                                    <h3 class="font-bold text-gray-700 mb-2">Cenário A: 2 Quartos</h3>
+                                    <ul class="text-sm space-y-1 text-gray-600">
+                                        <li>• 14 a 16 Unidades</li>
+                                        <li>• Área: ~55m² a 60m²</li>
+                                        <li>• Foco: Primeira moradia / Investidor</li>
+                                    </ul>
+                                </div>
+                                <div class="border border-gray-200 p-4 rounded bg-gray-50">
+                                    <h3 class="font-bold text-gray-700 mb-2">Cenário B: 3 Quartos</h3>
+                                    <ul class="text-sm space-y-1 text-gray-600">
+                                        <li>• 10 a 12 Unidades</li>
+                                        <li>• Área: ~75m² a 85m²</li>
+                                        <li>• Foco: Família / Upgrade</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 p-3 bg-yellow-50 border-l-4 border-yellow-400 text-sm text-yellow-800">
+                            <strong>Nota Técnica:</strong> Vizinhança consolidada com gabarito de até 15 pavimentos, indicando excelente capacidade de solo para fundações.
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Seção 2: Localização -->
+                <section class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="bg-gray-100 px-6 py-4 border-b border-gray-200">
+                        <h2 class="font-bold text-xl text-gray-800"><i class="fas fa-map-marked-alt mr-2 text-blue-600"></i> Inteligência de Localização</h2>
+                    </div>
+                    <div class="p-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="font-semibold text-gray-800 mb-3">Conveniência (Walkability)</h3>
+                            <ul class="space-y-2 text-sm text-gray-600">
+                                <li class="flex items-center"><i class="fas fa-shopping-cart w-6 text-green-600"></i> Supermercados BH e EPA (3 min)</li>
+                                <li class="flex items-center"><i class="fas fa-road w-6 text-gray-600"></i> Acesso Rápido à Via Expressa</li>
+                                <li class="flex items-center"><i class="fas fa-church w-6 text-blue-600"></i> Igreja Padre Eustáquio (Turismo/Fluxo)</li>
+                                <li class="flex items-center"><i class="fas fa-bus w-6 text-blue-600"></i> Av. Ressaca (2 quarteirões)</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-gray-800 mb-3">Âncora de Liquidez</h3>
+                            <div class="bg-blue-50 p-3 rounded text-sm text-blue-800">
+                                <div class="font-bold flex items-center mb-1"><i class="fas fa-graduation-cap mr-2"></i> PUC Minas Coração Eucarístico</div>
+                                A proximidade com a universidade garante alta demanda para locação e venda para investidores, reduzindo o risco de estoque parado.
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Coluna Direita: Financeiro e Fotos -->
+            <div class="space-y-6">
+                
+                <!-- Card VGV -->
+                <div class="bg-gradient-to-br from-blue-900 to-blue-800 text-white rounded-xl shadow-lg p-6">
+                    <h3 class="text-blue-200 uppercase text-xs font-bold tracking-wider mb-1">Potencial de Venda (VGV)</h3>
+                    <div class="text-3xl font-bold mb-4">R$ 7.5MM a R$ 8.5MM</div>
+                    
+                    <div class="space-y-3 text-sm border-t border-blue-700 pt-4">
+                        <div class="flex justify-between">
+                            <span class="text-blue-200">Preço Médio m² (Novo):</span>
+                            <span class="font-semibold">R$ 8.000,00</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-blue-200">Incidência Terreno:</span>
+                            <span class="font-bold text-green-400">~10.5% (Oportunidade)</span>
+                        </div>
+                    </div>
+                    <div class="mt-4 text-xs text-blue-300 italic">
+                        *Estimativa baseada em lançamentos recentes na região Noroeste/2026.
+                    </div>
+                </div>
+
+                <!-- Placeholder para Foto -->
+                <div class="bg-white p-4 rounded-xl shadow-md border-2 border-dashed border-gray-300 flex flex-col items-center justify-center text-center h-64 relative group cursor-pointer hover:bg-gray-50 transition-colors">
+                    <div class="absolute top-2 right-2 bg-gray-200 text-gray-600 text-xs px-2 py-1 rounded">Área para Foto</div>
+                    <i class="fas fa-camera text-4xl text-gray-300 mb-2 group-hover:text-blue-500"></i>
+                    <p class="text-gray-500 text-sm">Insira aqui a foto da fachada</p>
+                    <p class="text-xs text-gray-400 mt-2">Destaque os 12m de frente</p>
+                </div>
+
+                <!-- Call to Action -->
+                <div class="bg-yellow-500 text-blue-900 rounded-xl shadow-md p-6 text-center">
+                    <h3 class="font-bold text-xl mb-2">Interessado?</h3>
+                    <p class="text-sm mb-4">Tenho a documentação completa e autorização direta.</p>
+                    <button onclick="window.location.href='https://wa.me/?text=Tenho%20interesse%20no%20terreno'" class="w-full bg-blue-900 text-white font-bold py-3 rounded-lg hover:bg-blue-800 transition shadow-lg flex items-center justify-center gap-2">
+                        <i class="fab fa-whatsapp"></i> Solicitar Visita / IBE
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+
+        <footer class="mt-12 text-center text-gray-500 text-xs pb-8">
+            <p>Este documento é um estudo preliminar de viabilidade e não substitui os projetos legais.</p>
+            <p>&copy; 2026 - Oportunidade Padre Eustáquio</p>
+        </footer>
+
+    </main>
+</body>
+</html>
